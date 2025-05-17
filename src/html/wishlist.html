@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/wishlist.css">
     <title>Donika</title>
     <link rel="icon" href="PATH TO ICON">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Orbitron:wght@400..900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <header>
         <nav>
@@ -17,19 +25,41 @@
             <a href="">Creator</a>
         </nav>
     </header>
-    <div class="hero-section">
-        <div>
-            <h2>HOME/WISHLIST</h2>
-        </div>
-        <div>
-            <img src="" alt="Donk">
-            <h1>Donika's Wishlist</h1>
-        </div>
-        <div>
-            <button>Create a new wish</button>
-            <button>Search wishlist</button>
-        </div>
 
+    <div class="hero-section">
+        <div class="ghost-text">
+            <p>HOME/WISHLIST</p>
+        </div>
+        <div class="top-img"><img src="" alt="Donk"></div>
+        <div>
+            <h1 class="header-text">Donika's Wishlist</h1>
+        </div>
+        <div class="hero-btns">
+            <a href="">Create a new wish</a>
+            <a href="">Search wishlist</a>
+        </div>
+    </div>
+
+    <div class="card-section">
+        <div class="card-top">
+            <p class="card-top-photo">Photo</p>
+            <p class="card-top-name">Name</p>
+            <p class="card-top-description">Description</p>
+            <p class="card-top-action">Action</p>
+        </div>
+        <div class="cards">
+            <div class="a-single-card">
+                <img src="../images/strv.jpg" alt="photo">
+                    <div class="text-shell">
+                        <div class="name-shell">
+                            <p class="name">Name - name of the thing</p>
+                        </div>
+                        <p class="description">Description - long long description description description description description description</p>
+                    </div>
+                <button class="complete">Complete wish</button>
+                <button>btn</button>
+            </div>
+        </div>
     </div>
     <footer>
 
@@ -56,4 +86,5 @@
        `/_/====/_/-'\_\
         ""     ""    ""
 -->
+
 </html>
