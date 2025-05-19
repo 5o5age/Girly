@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +15,11 @@ header {
     background-color: #D9D9D9;
 }
 
+a {
+    text-decoration: none;
+    color: #747474;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -20,7 +29,7 @@ nav {
     padding: 11em;
 }
 
-nav > a {
+nav>a {
     text-decoration: none;
     color: #616161;
     font-size: 24px;
@@ -40,7 +49,12 @@ nav > a {
 }
 
 .top-img {
-    margin-top: 4em;
+    margin-top: 2em;
+}
+
+.top-img > img {
+    opacity: 0.7;
+    height: 100px;
 }
 
 .header-text {
@@ -60,27 +74,17 @@ nav > a {
 .hero-btns>a {
     font-size: 24px;
     text-decoration: none;
-    color: #747474;
+    color: #999999;
 }
-
 
 .card-section {
     width: 80%;
     margin: auto;
 }
 
-.card-top {
-    display: flex;
-    justify-content: space-evenly;
-    border-bottom-style: solid;
-    border-width: 0.2px;
-    color: #7B7B7B;
-    font-size: 20px;
-    padding-bottom: 1.7em;
-}
 
 .cards {
-    color: #7B7B7B;
+    color: #999999;
     font-size: 20px;
 }
 
@@ -89,7 +93,7 @@ nav > a {
     align-items: center;
     padding: 1.2em 3.1em;
     border-bottom-style: solid;
-    border-width: 0.2px;    
+    border-width: 0.2px;
 }
 
 .a-single-card>img {
@@ -98,7 +102,6 @@ nav > a {
     margin-right: 4.6em;
     border-radius: 10px;
 }
-
 
 .text-shell {
     display: flex;
@@ -110,25 +113,27 @@ nav > a {
 .name-shell {
     width: 16em;
 }
+
 .text-shell>div>.name {
     border-bottom-style: solid;
-    border-width: 0.2px; 
+    border-width: 0.2px;
     padding-bottom: 1.5em;
     margin-top: 1.5em;
     max-width: fit-content;
     
 }
+
 .text-shell>.description {
     max-width: 55em;
     margin-right: auto;
     margin-left: 3em;
     border-bottom-style: solid;
-    border-width: 0.2px; 
+    border-width: 0.2px;
     padding-bottom: 1.5em;
     margin-top: 1.5em;
 }
 
-.complete {
+.complete-btn {
     width: 13em;
     margin: 1em;
     padding: 1.4em 1.7em;
@@ -137,5 +142,99 @@ nav > a {
     border-radius: 0.5em;
     color: #77AC6D;
     background-color: #BEE3B5;
+    
+}
 
+.card-top {
+    display: flex;
+    border-bottom-style: solid;
+    border-width: 0.2px;
+    color: #999999;
+    font-size: 20px;
+    padding-bottom: 1.7em;
+}
+.card-top-photo {
+    padding-left: 3.1em;
+}
+
+.card-top-name {
+    padding-left: 8.5em;
+}
+
+.card-top-description {
+    padding-left: 16.3em;
+}
+
+.card-top-action {
+    padding-left: 50em;
+}
+
+.a-single-card > a > img {
+    height: 45px;
+    opacity: 0.5;
+}
+
+.a-single-card > button {
+    margin-right: 0;
+}
+
+.bottom-btn {
+    text-align: center;
+    margin-top: 6.25em;
+    margin-bottom: 11.8em;
+    font-size: 24px;
+}
+
+footer {
+    height: 82.6em;
+    background-image: url("../images/blur_background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 11em 11.8em;
+}
+
+.footer-made {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.footer-contact {
+    font-size: 128px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.footer-contact>:not(:first-child) {
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 3em;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 54.4em;
+    border-radius: 4.1em;
+    height: 4.6em;
+    align-items: center;
+    background-color: #414141;
+    margin: auto;
+    margin-top: 3em;
+}
+
+.footer-nav>a {
+    margin: 0em 3em;
+    color: #FBFAF3;
+    font-weight: bold;
+    font-size: 16px;
 }
