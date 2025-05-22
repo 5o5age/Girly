@@ -102,7 +102,6 @@ nav>a {
 
 .photos>img {
     width: 24.1em;
-
 }
 
 .bottom-btn {
@@ -171,4 +170,95 @@ footer {
     text-align: center;
     margin-top: 11.5em;
     color: #000000;
+}
+
+@media (max-width: 1920px) {
+
+    header {
+        height: 200px;
+    }
+
+    nav {
+        padding: 8em 11em;
+    }
+
+    nav>a {
+        font-size: 18px;
+    }
+
+    .ghost-text>p {
+        font-size: 18px;
+    }
+
+    .top-img>img {
+        height: 95px;
+    }
+
+    .hero-section {
+        height: 450px;
+    }
+    
+    .hero-btns {
+        width: 28%;
+    }
+
+    .hero-btns>a {
+        font-size: 18px;
+    }
+
+    .header-text {
+        font-size: 60px;
+    }
+
+    .bottom-btn>a {
+        font-size: 18px;
+    }
+
+    .bottom-btn {
+        margin-bottom: 100px;
+    }
+
+    footer {
+        height: 850px
+    }
+
+    .footer-text {
+        padding: 120px 50px;
+    }
+
+    .footer-made>p {
+        font-size: 30px;
+    }
+
+    .footer-contact {
+        font-size: 80px;
+    }
+
+    .footer-contact>:not(:first-child) {
+        font-size: 15px;
+    }
+
+    .footer-copyrights {
+        font-size: 12px;
+        margin-top: 45px;
+    }
+
+    .footer-nav>a {
+        font-size: 12px;
+    }
+
+    .footer-nav {
+        padding: 0 20px;
+        width: 600px;
+        height: 60px;
+        }
+
+    .photo-row {
+        width: 50em;
+    }
+
+    .photos>img {
+        width: 16.666666em;
+    }
+
 }
